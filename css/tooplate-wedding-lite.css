@@ -1,6 +1,6 @@
 /*
 
-Tooplate 2131 Wedding Lite
+Tooplate 2131 Por
 
 https://www.tooplate.com/view/2131-wedding-lite
 
@@ -231,18 +231,12 @@ strong {
 /*---------------------------------------
   IMAGE HOVER               
 -----------------------------------------*/
-.image-hover-thumb {
-  border-radius: var(--border-radius-medium);
-  position: relative;
-  overflow: hidden;
-}
-
 .image-hover-thumb:hover .img-fluid {
   transform: scale(1.05);
 }
 
 .image-hover-thumb .img-fluid {
-  border-radius: var(--border-radius-small);
+  border-radius: var(--border-radius-medium);
   display: block;
   transition: all 0.5s;
 }
@@ -531,8 +525,8 @@ strong {
   background-color: #d9d8d6;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 60px;
   text-align: center;
   position: relative;
 }
